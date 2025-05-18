@@ -1,0 +1,16 @@
+# Ignore Eclipse metadata and output folders
+.settings/
+.classpath
+.project
+bin/
+
+# Ignore git folder itself (Git handles this automatically, so usually not needed)
+.git/
+
+
+# But do NOT ignore the src folder and everything inside it
+!src/
+!src/**
+
+# Optional: keep .gitignore itself tracked
+!.gitignore
